@@ -1,0 +1,19 @@
+.wallClock{
+    max-width: 600px;
+    margin: 0 auto;
+}
+canvas{
+ background: rgb(226, 216, 216);
+}
+
+  body {background-color:#2d2d2d;}
+
+#timedate {
+  font: small-caps lighter 43px/150% "Segoe UI", Frutiger, "Frutiger Linotype", "Dejavu Sans", "Helvetica Neue", Arial, sans-serif;
+  text-align:left;
+  font-size: 2rem;
+  margin: 40px auto;
+  color:#fff;
+  border-left: 3px solid #dda8a9;
+  padding: 20px;
+}
