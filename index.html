@@ -10,14 +10,17 @@
 </head>
 <body class="">
     <div class="container">
-     <div class="wallClock my-5">
+        <!-- first clock -->
+     <div class="wallClock my-5 m-auto">
         <canvas id="myCanv" width="200" height="200"></canvas>
 </div>    
     </div>
+
+    <!-- second clock -->
  <div class="container">
        
 <div class="row">
-    <div class="m-auto col-sm-12 ">
+    <div class="m-auto col-sm-12">
             <body onLoad="initClock()">
 
   <div id="timedate">
@@ -34,6 +37,13 @@
 </div>
  </div>
 
+  <footer>
+    <div class="">
+               
+                 <p class="text-center mt-3 texts-b text-white">©  <script>document.write( new Date().getFullYear() );</script> Created using javascript by Best Ogbeide</p>
+             </div>
+
+</footer>
 <script src="./script.js"></script>
 </body>
 </html>
